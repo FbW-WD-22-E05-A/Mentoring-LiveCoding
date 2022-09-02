@@ -1,0 +1,21 @@
+{
+  "name": "sass-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "serve": "live-server src",
+    "watch": "sass --watch src/scss:src/styles",
+    "start": "run-p serve watch",
+    "publish": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "James",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9"
+  }
+}
